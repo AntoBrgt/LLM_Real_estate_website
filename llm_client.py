@@ -15,4 +15,4 @@ def invoke_llm(prompt: str) -> str:
     Returns:
         str: The LLM's answer
     """
-    return llm.invoke(prompt)
+    return llm.invoke(prompt).content
